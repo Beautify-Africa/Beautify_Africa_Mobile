@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Beautify Africa",
+    "slug": "beautify-africa-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF7F2"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.beautifyafrica.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FAF7F2"
+      },
+      "package": "com.beautifyafrica.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "beautify-africa-id"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
